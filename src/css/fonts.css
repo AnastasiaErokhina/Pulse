@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url('MuseoModerno-Light.eot');
+    src: local('MuseoModerno Light'), local('MuseoModerno-Light'),
+        url('MuseoModerno-Light.eot?#iefix') format('embedded-opentype'),
+        url('MuseoModerno-Light.woff2') format('woff2'),
+        url('MuseoModerno-Light.woff') format('woff'),
+        url('MuseoModerno-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url('MuseoModerno-Regular.eot');
+    src: local('MuseoModerno Regular'), local('MuseoModerno-Regular'),
+        url('MuseoModerno-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MuseoModerno-Regular.woff2') format('woff2'),
+        url('MuseoModerno-Regular.woff') format('woff'),
+        url('MuseoModerno-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url('MuseoModerno-Medium.eot');
+    src: local('MuseoModerno Medium'), local('MuseoModerno-Medium'),
+        url('MuseoModerno-Medium.eot?#iefix') format('embedded-opentype'),
+        url('MuseoModerno-Medium.woff2') format('woff2'),
+        url('MuseoModerno-Medium.woff') format('woff'),
+        url('MuseoModerno-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url('MuseoModerno-Bold.eot');
+    src: local('MuseoModerno Bold'), local('MuseoModerno-Bold'),
+        url('MuseoModerno-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MuseoModerno-Bold.woff2') format('woff2'),
+        url('MuseoModerno-Bold.woff') format('woff'),
+        url('MuseoModerno-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
