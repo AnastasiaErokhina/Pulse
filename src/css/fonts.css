@@ -2,10 +2,10 @@
     font-family: 'MuseoModerno';
     src: url('../fonts/MuseoModerno/../fonts/MuseoModerno/MuseoModerno-Light.eot');
     src: local('MuseoModerno Light'), local('MuseoModerno-Light'),
-        url('../fonts/MuseoModerno/../fonts/MuseoModerno/MuseoModerno-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/MuseoModerno/../fonts/MuseoModerno/MuseoModerno-Light.woff2') format('woff2'),
-        url('../fonts/MuseoModerno/../fonts/MuseoModerno/MuseoModerno-Light.woff') format('woff'),
-        url('../fonts/MuseoModerno/../fonts/MuseoModerno/MuseoModerno-Light.ttf') format('truetype');
+        url('../fonts/MuseoModerno/MuseoModerno-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoModerno/MuseoModerno-Light.woff2') format('woff2'),
+        url('../fonts/MuseoModerno/MuseoModerno-Light.woff') format('woff'),
+        url('../fonts/MuseoModerno/MuseoModerno-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
