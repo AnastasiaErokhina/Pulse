@@ -1,0 +1,121 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 90%;
+    }
+    .benefits__item{
+        padding: 0 8px;
+    }
+}
+@media (max-width: 767px) {
+    .header{
+        &__logo {
+            width: 160px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 15px;
+            }
+        }
+        &__phone{
+            font-size: 16px;
+        }
+    }
+    .promo{
+        min-height: 565px;
+        background: url(../../img/bg/first_section.jpg) -430px top/cover no-repeat;
+        &__wrapper {
+            align-items: center;
+            margin-top: 42px;
+        }
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 24px;
+        }
+    }
+    .btn {
+        width: 130px;
+        height: 23px;
+        font-size: 11px;
+        &_menu {
+            margin-top: 4px;
+        }
+        &_main {
+            width: 277px;
+            height: 48px;
+            font-size: 15px;
+            margin-top: 53px;
+        }
+    }
+    .benefits {
+        padding: 40px 0 35px 0;
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 35px;
+        }
+        &__item {
+            padding: 0;
+            margin-top: 40px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+        &__subtitle{
+            margin-top: 14px;
+        }
+    }
+    .title {
+        font-size: 25px;
+    }
+}
+@media (max-width: 575px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        &__logo, &__official, &__contacts {
+            margin-top: 15px;
+            padding: 0 10px;
+        }
+        &__logo {
+            width: 230px;
+        }
+        &__official {
+            font-size: 12px;
+            span {
+                font-size: 18px;
+            }
+        }
+        &__phone {
+            font-size: 18px;
+        }
+    }
+    .btn {
+        width: 151px;
+        height: 30px;
+        font-size: 12px;
+        &_main{
+            width: 239px;
+            height: 58px;
+            font-size: 15px;        
+        }
+    }
+    .promo {
+        background: url(../../img/bg/first_section.jpg) right top/cover no-repeat;
+        &__header, &__subheader {
+            text-align: center;
+        }
+        &__icons{
+            flex-direction: column;
+            margin-top: 26px;
+        }
+        &__icon {
+            margin-top: 30px;
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+    }
+}
