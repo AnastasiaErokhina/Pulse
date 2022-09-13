@@ -1,0 +1,11 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 100px 0;
+    background: url(../img/bg/order_call_section.jpg);
+    &__descr {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}

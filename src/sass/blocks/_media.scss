@@ -36,11 +36,11 @@
         }
     }
     .btn {
-        width: 130px;
-        height: 23px;
-        font-size: 11px;
         &_menu {
             margin-top: 4px;
+            width: 130px;
+            height: 23px;
+            font-size: 11px;
         }
         &_main {
             width: 277px;
@@ -69,6 +69,21 @@
     }
     .title {
         font-size: 25px;
+        &_left {
+            text-align: center;
+            width: 100%;
+        }
+    }
+    .consultation {
+        padding: 78px 0 50px 0;
+        &__descr {
+            text-align: center;
+            font-size: 17px;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 36px;
     }
 }
 @media (max-width: 575px) {
@@ -93,13 +108,26 @@
         }
     }
     .btn {
-        width: 151px;
-        height: 30px;
-        font-size: 12px;
+        &_menu{
+            width: 151px;
+            height: 30px;
+            font-size: 12px;
+        }
         &_main{
             width: 239px;
             height: 58px;
             font-size: 15px;        
+        }
+        &_sumbit {
+            width: 269px;
+            height: 47px;
+            font-size: 14px;
+        }
+    }
+    .title {
+        font-size: 22px;
+        &_left {
+            line-height: 35px;
         }
     }
     .promo {
@@ -116,6 +144,20 @@
             &:first-child{
                 margin-top: 0;
             }
+        }
+    }
+    .consultation {
+        min-height: 565px;
+        padding: 44px 0 50px 0;
+        &__descr {
+            font-size: 14px;
+        }
+    }
+    .feed-form {
+        width: 269px;
+        input {
+            height: 47px;
+            font-size: 13px;
         }
     }
 }

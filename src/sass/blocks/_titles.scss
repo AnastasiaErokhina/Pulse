@@ -4,4 +4,11 @@
     text-align: center;
     color: #0D0D0D;
     text-transform: uppercase;
+    &_left {
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 36px;
+        width: 88%;
+        line-height: 54px;
+    }
 }
