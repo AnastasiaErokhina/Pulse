@@ -12,12 +12,12 @@
 
 @font-face {
     font-family: 'MuseoModerno';
-    src: url('../fonts/MuseoModerno/../fonts/MuseoModerno/MuseoModerno-Regular.eot');
+    src: url('../fonts/MuseoModerno/MuseoModerno-Regular.eot');
     src: local('MuseoModerno Regular'), local('MuseoModerno-Regular'),
-        url('../fonts/MuseoModerno/../fonts/MuseoModerno/MuseoModerno-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/MuseoModerno/../fonts/MuseoModerno/MuseoModerno-Regular.woff2') format('woff2'),
-        url('../fonts/MuseoModerno/../fonts/MuseoModerno/MuseoModerno-Regular.woff') format('woff'),
-        url('../fonts/MuseoModerno/../fonts/MuseoModerno/MuseoModerno-Regular.ttf') format('truetype');
+        url('../fonts/MuseoModerno/MuseoModerno-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoModerno/MuseoModerno-Regular.woff2') format('woff2'),
+        url('../fonts/MuseoModerno/MuseoModerno-Regular.woff') format('woff'),
+        url('../fonts/MuseoModerno/MuseoModerno-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }

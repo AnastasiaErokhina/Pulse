@@ -1,0 +1,42 @@
+.slider-tns {
+    width: 700px;
+    margin: 0 auto;
+    padding: 81px 0;
+    &__inner {
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+    &__prev, &__next {
+        background-color: transparent;
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__prev {
+        left: -60px;
+    }
+    &__next {
+        right: -60px;
+    }
+    .tns-nav {
+        text-align: center;
+        margin-top: 30px;
+        button {
+            width: 30px;
+            height: 5px;
+            border: none;
+            background-color: #c5cacf;
+            margin: 0 10px;
+        }
+        &-active {
+            background-color: $accent-color !important;
+        }
+    }
+} 
+
+        

@@ -5,6 +5,14 @@
     .benefits__item{
         padding: 0 8px;
     }
+    .slider-tns {
+        &__prev{
+            display: none;
+        }
+        &__next{
+            display: none;
+        }
+    }
 }
 @media (max-width: 767px) {
     .header{
@@ -85,6 +93,16 @@
         margin: 0 auto;
         margin-top: 36px;
     }
+    .slider-tns {
+        padding: 53px 0;
+        width: 560px;
+        .tns-nav {
+            button {
+                width: 24px;
+                height: 4px;
+            }
+        }
+    }
 }
 @media (max-width: 575px) {
     .header {
@@ -158,6 +176,15 @@
         input {
             height: 47px;
             font-size: 13px;
+        }
+    }
+    .slider-tns {
+        padding: 53px 0;
+        width: 295px;
+        .tns-nav {
+            button {
+                width: 18px;
+            }
         }
     }
 }
