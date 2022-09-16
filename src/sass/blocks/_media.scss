@@ -13,6 +13,11 @@
             display: none;
         }
     }
+    .cards-product {
+        &_active {
+            justify-content: center;
+        }
+    }
 }
 @media (max-width: 767px) {
     .header{
@@ -103,6 +108,9 @@
             }
         }
     }
+    .catalog__tab {
+        font-size: 16px;
+    }
 }
 @media (max-width: 575px) {
     .header {
@@ -186,5 +194,17 @@
                 width: 18px;
             }
         }
+    }
+    .catalog__tabs {
+        flex-direction: column;
+    }
+    .catalog__tab:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .cards-product {
+        margin-top: 10px;
+    }    
+    .card-product {
+        margin-right: 0;
     }
 }

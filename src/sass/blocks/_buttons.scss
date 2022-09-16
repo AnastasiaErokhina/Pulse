@@ -6,6 +6,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    cursor: pointer;
     &_menu {
         margin-top: 6px;
         width: 153px;
@@ -23,5 +24,11 @@
         height: 58px;
         font-size: 16px;
         margin-top: 17px;
+    }
+    &_catalog {
+        width: 135px;
+        height: 44px;
+        font-size: 14px;
+        line-height: 42px;
     }
 }
