@@ -8,7 +8,8 @@ $(document).ready(function() {
 		speed: 1500,
 		autoplay: true,
 		autoplayButtonOutput: false,
-		autoplayTimeout: 3000,
+		autoplayTimeout: 5000,
+		autoplayHoverPause: true,
 		responsive: {
 			992: {
 				nav: false

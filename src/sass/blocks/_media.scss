@@ -207,4 +207,24 @@
     .card-product {
         margin-right: 0;
     }
+    .reviews {
+        &__item {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__photo {
+            margin-right: 0;
+        }
+        &__name {
+            margin-top: 10px;
+            text-align: center;
+        }
+        &__number-marathons {
+            text-align: center;
+        }
+        &__quote {
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
 }
