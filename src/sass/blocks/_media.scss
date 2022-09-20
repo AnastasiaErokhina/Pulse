@@ -227,4 +227,31 @@
             text-align: center;
         }
     }
+    .footer {
+        &__info {
+            width: 291px;
+            padding: 30px 20px 36px;
+        }
+        &__addrs {
+            font-size: 16px;
+        }
+        &__phone {
+            font-size: 18px;
+        }
+    }
+    .social {
+        &__item {
+            width: 44px;
+            height: 44px;
+        }
+        &__facebook:before {
+            font-size: 20px;
+        }
+        &__instagram:before {
+            font-size: 21px;
+        }
+        &__pinterest {
+            height: 23px;
+        }
+    }
 }

@@ -1,0 +1,32 @@
+.footer {
+    position: relative;
+    &__info {
+        position: absolute;
+        width: 460px;
+        padding: 50px 53px 56px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $accent-color;
+    }
+    &__addrs {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__phone {
+        display: block;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 36px;
+        text-decoration: none;
+        &:hover {
+            color: #cfcfcf;
+        }
+    }
+}

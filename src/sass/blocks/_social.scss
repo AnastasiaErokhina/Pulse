@@ -1,0 +1,36 @@
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 53px;
+        height: 53px;
+        background-color: transparent;
+        border-radius: 100%;
+        border: 2px solid #FFFFFF;
+        &:not(:last-child) {
+            margin-right: 27px;
+        }
+        &:hover {
+            box-shadow: 0px 0px 18px 4px #bdbbbb;
+        }
+    }
+    &__facebook:before {
+        content: "\ea90";
+        color: #fff;
+        font-size: 25px;
+    }
+    &__instagram:before {
+        content: "\ea92";
+        color: #fff;
+        font-size: 27px;
+    }
+    &__pinterest {
+        height: 27px;
+    }
+}
