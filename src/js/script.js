@@ -57,14 +57,61 @@ $(document).ready(function() {
 		$('.overlay, #modal-consultation, #modal-order, #modal-thanks').fadeOut('slow')
 	});
 
-	// $('.btn_catalog').on('click', function() {
-	// 	$('.overlay, #modal-order').fadeIn('slow');
-	// });
-
 	$('.btn_catalog').each(function(i) {
 		$(this).on('click', function() {
 			$('#modal-order .modal__descr').text($('.card-product__subtitle').eq(i).text());
 			$('.overlay, #modal-order').fadeIn('slow');
 		})
 	}); 
+
+	// validation
+
+	function valideForms(form){
+		$(form).validate({
+			rules: {
+				name: "required",
+				tel: "required",
+				email: {
+					required: true, 
+					email: true
+				}
+			},
+			messages: {
+				name: "Пожалуйста, заполните поле",
+				tel: "Пожалуйста, заполните поле",
+				email: {
+				  required: "Пожалуйста, заполните поле",
+				  email: "Пожалуйста, введите почту в формате name@domain.com"
+				}
+			  }
+		});
+	};
+
+	valideForms('#consultation-form');
+	valideForms('#modal-consultation form');
+	valideForms('#modal-order form');
+
+	// mask
+	$.mask.definitions['h'] = "[0-9]";
+	$('input[name=tel').mask("+7 (hhh) hhh-hh-hh");
+
+	// smooth scroll and pageup
+
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 1000) {
+			$('.pageup').fadeIn();
+		} else {
+			$('.pageup').fadeOut();
+		}
+	});
+
+	$("a[href*='#']").on("click", function(e){
+		const anchor = $(this);
+		$('html, body').stop().animate({
+		  scrollTop: $(anchor.attr('href')).offset().top
+		}, 777);
+		e.preventDefault();
+		return false;
+	  });
+
 });

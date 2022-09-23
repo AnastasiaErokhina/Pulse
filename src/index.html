@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-	<section class="promo">
+	<section id="section-promo" class="promo">
 		<div class="container">
 			<header class="header">
 				<a href="#" class="header__logo">
@@ -110,10 +110,13 @@
 				<br>
 				и мы перезвоним вам в течении 10 минут
 			</div>
-			<form action="#" class="feed-form">
-				<input name="name" placeholder="Ваше имя" type="text">
-				<input name="tel" placeholder="Ваш телефон" type="tel">
-				<input name="email" placeholder="Ваш E-mail" type="email">
+			<form id="consultation-form" class="feed-form" action="#">
+				<input name="name"
+				 placeholder="Ваше имя" type="text">
+				<input name="tel"
+				  placeholder="Ваш телефон" type="tel">
+				<input name="email"
+				  placeholder="Ваш E-mail" type="email">
 				<button class="btn btn_sumbit">заказать консультацию</button>
 			</form>
 		</div>
@@ -600,9 +603,12 @@
 			<div class="modal__subtitle">Просто заполните форму заявки</div>
 			<div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
 			<form action="#" class="feed-form feed-form_mt25">
-				<input name="name" placeholder="Ваше имя" type="text">
-				<input name="tel" placeholder="Ваш телефон" type="tel">
-				<input name="email" placeholder="Ваш E-mail" type="email">
+				<input name="name"
+				  placeholder="Ваше имя" type="text">
+				<input name="tel"
+				  placeholder="Ваш телефон" type="tel">
+				<input name="email"
+				  placeholder="Ваш E-mail" type="email">
 				<button class="btn btn_sumbit">заказать консультацию</button>
 			</form>
 		</div>
@@ -611,21 +617,31 @@
 			<div class="modal__subtitle">Ваш заказ:</div>
 			<div class="modal__descr">Пульсометр Polar FT1</div>
 			<form action="#" class="feed-form feed-form_mt25">
-				<input name="name" placeholder="Ваше имя" type="text">
-				<input name="tel" placeholder="Ваш телефон" type="tel">
-				<input name="email" placeholder="Ваш E-mail" type="email">
+				<input name="name"
+				  placeholder="Ваше имя" type="text">
+				<input name="tel"
+				  placeholder="Ваш телефон" type="tel">
+				<input name="email"
+				  placeholder="Ваш E-mail" type="email">
 				<button class="btn btn_sumbit">Купить</button>
 			</form>
 		</div>
 		<div class="modal modal_mini" id="modal-thanks">
 			<div class="modal__close">&times;</div>
 			<div class="modal__subtitle">Спасибо за вашу заявку!</div>
-			<div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
+			<div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!
+			</div>
 		</div>
 	</div>
 
+	<a href="#section-promo" class="pageup">
+		<img src="icons/arrow_up.svg" alt="up">
+	</a>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>

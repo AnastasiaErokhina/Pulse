@@ -7,6 +7,9 @@
     text-transform: uppercase;
     color: #FFFFFF;
     cursor: pointer;
+    &:hover {
+        box-shadow: inset 0 0 10px 5px rgba(112, 3, 3, 0.658);
+    }
     &_menu {
         margin-top: 6px;
         width: 153px;

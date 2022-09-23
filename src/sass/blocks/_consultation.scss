@@ -8,4 +8,11 @@
         line-height: 30px;
         color: #FFFFFF;
     }
+    input.error {
+        border: 3px solid $accent-color;
+    }
+    label.error {
+        font-size: 13px;
+        color: #ebebeb;
+    }
 }

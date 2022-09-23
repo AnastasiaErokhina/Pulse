@@ -40,6 +40,13 @@
         color: #0D0D0D;
         margin-top: 10px;
     }
+    input.error {
+        border: 2px solid $accent-color;
+    }
+    label.error {
+        font-size: 13px;
+        color: $accent-color;
+    }
 }
 
 #modal-consultation, #modal-order, #modal-thanks {
