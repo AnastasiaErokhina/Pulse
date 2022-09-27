@@ -17,6 +17,9 @@
         img {
             width: 100%;
         }
+        &_animated{
+            animation: heartbeat 1.5s ease infinite;
+        }
     }
     &__subtitle {
         margin-top: 35px;
