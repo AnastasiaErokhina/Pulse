@@ -1,7 +1,11 @@
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'libs/fonts.scss';
+@import 'libs/icons-font.scss';
+@import 'libs/tiny-slider.scss';
+@import 'libs/animate.scss';
+
 @import 'base/variables';
-@import 'base/mixins';
 @import 'base/animations';
-@import 'animate.css';
 
 * {
     font-family: 'MuseoModerno', sans-serif;
